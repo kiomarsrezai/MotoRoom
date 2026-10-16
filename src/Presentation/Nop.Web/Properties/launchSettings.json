@@ -1,4 +1,4 @@
-{
+﻿{
   "profiles": {
     "Nop.Web": {
       "commandName": "Project",
@@ -6,7 +6,8 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:60228;http://localhost:60229"
+      "applicationUrl": "https://localhost:44375;http://localhost:60790",
+      "launchUrl": "/"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -25,3 +26,4 @@
     }
   }
 }
+
