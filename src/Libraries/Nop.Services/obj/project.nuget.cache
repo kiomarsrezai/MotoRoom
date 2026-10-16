@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "8e+ZjE5jkzo=",
+  "success": false,
+  "projectFilePath": "E:\\MotorcyclePartsStore\\src\\Libraries\\Nop.Services\\Nop.Services.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'Nop.Services': Invalid framework identifier ''.",
+      "projectPath": "E:\\MotorcyclePartsStore\\src\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "filePath": "E:\\MotorcyclePartsStore\\src\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

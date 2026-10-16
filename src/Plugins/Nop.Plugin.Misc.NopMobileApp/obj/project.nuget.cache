@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "NumQYb72Uy0=",
+  "success": false,
+  "projectFilePath": "E:\\MotorcyclePartsStore\\src\\Plugins\\Nop.Plugin.Misc.NopMobileApp\\Nop.Plugin.Misc.NopMobileApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Nop.Web.Framework is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project Nop.Web.Framework does not support any target frameworks.",
+      "projectPath": "E:\\MotorcyclePartsStore\\src\\Plugins\\Nop.Plugin.Misc.NopMobileApp\\Nop.Plugin.Misc.NopMobileApp.csproj",
+      "filePath": "E:\\MotorcyclePartsStore\\src\\Plugins\\Nop.Plugin.Misc.NopMobileApp\\Nop.Plugin.Misc.NopMobileApp.csproj",
+      "libraryId": "Nop.Web.Framework",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
