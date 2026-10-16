@@ -14,7 +14,7 @@
     //register URL with return URL (if specified)
     var registerUrl = Url.RouteUrl(NopRouteNames.Standard.REGISTER, new { returnUrl = this.Context.Request.Query["returnUrl"] }, webHelper.GetCurrentRequestProtocol());
 }
-<div class="page login-page">
+<div class="page login-page"><div class="mr-login-brand"><img src="/images/motoroom/logo.jpg" alt="موتو روم" /><h1>ورود به موتو روم</h1><p>شماره موبایل و رمز عبور خود را وارد کنید</p></div>
     <div class="page-title">
         <h1>@T("Account.Login.Welcome")</h1>
     </div>
@@ -72,8 +72,8 @@
                         @if (Model.UsernamesEnabled)
                         {
                             <div class="inputs">
-                                <label asp-for="Username" asp-postfix=":"></label>
-                                <input asp-for="Username" class="username" autofocus="autofocus" />
+                                <label asp-for="Username">شماره موبایل</label>
+                                <input asp-for="Username" class="username" inputmode="numeric" autocomplete="tel" placeholder="مثلاً 09121234567" autofocus="autofocus" />
                                 <span asp-validation-for="Username"></span>
                             </div>
                         }
